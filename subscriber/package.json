@@ -1,0 +1,33 @@
+{
+  "name": "subscriber",
+  "version": "1.0.0",
+  "description": "Subscriber with Mqtt.JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Razborges/mqttAndMoscaJS.git"
+  },
+  "keywords": [
+    "Mqtt",
+    "JavaScript",
+    "Node"
+  ],
+  "author": "Rafael Borges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Razborges/mqttAndMoscaJS/issues"
+  },
+  "homepage": "https://github.com/Razborges/mqttAndMoscaJS#readme",
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^12.0.1",
+    "eslint-plugin-import": "^2.7.0"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "mqtt": "^2.13.0"
+  }
+}
