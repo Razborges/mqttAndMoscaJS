@@ -48,22 +48,3 @@ const thermometerOff = () => {
   active = false;
   sendTemp();
 };
-
-/*
-client.on('connect', () => {
-  setInterval(() => {
-    client.publish('/thermometer/garden', messageOfThermometer);
-  }, 3000);
-});
-
-
-client.subscribe('/thermometer/garden/off');
-
-client.on('off', (topic, message) => {
-  console.log(message.toString());
-  client.end();
-});
-
-// Message
-const messageOfThermometer = `Thermometer Garden ${client.id} > 32 C`;
-*/

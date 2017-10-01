@@ -45,17 +45,3 @@ setTimeout(() => {
   console.log('OFF');
   turnOffThermometer();
 }, 30000);
-
-/*
-client.subscribe('/thermometer/#');
-
-client.on('message', (topic, message) => {
-  console.log(message.toString());
-});
-
-client.on('garden/off', () => {
-  client.publish('/thermometer/garden/off', 'Turn OFF Thermometer');
-});
-
-console.log('Client started...');
-*/
